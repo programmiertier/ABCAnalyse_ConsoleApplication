@@ -28,7 +28,7 @@ namespace ABCAnalyse_ConsoleApplication
             {
                 foreach ( var item in query )
                 {
-                    WriteLine("{0}: {1}", item.treffer, item.wer);
+                    WriteLine("{0}: {1}", item.treffer, item.wer); break;       // break zeigt nur den mit den meisten
                 }
             }
             ReadLine();
